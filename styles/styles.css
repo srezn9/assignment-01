@@ -45,7 +45,7 @@
         font-weight: 600;
         color:white;
     }
-    .same2{
+    .same2, .{
         color:#0E0E0E;
         font-size:40px;
         font-weight: bold;
@@ -54,7 +54,7 @@
     /* vision section */
     .visions{
         width:1280px;
-        height:765px;
+        height:409px;
         margin:120px auto;
 
     }
@@ -115,3 +115,47 @@
           font-weight: 600;
           color:white;
           }
+/*  recent news styles */
+
+.recents{
+    width:1280px;
+    height:1406px;
+    margin: 120px auto;
+}
+
+.news{
+    display:flex;
+    gap:32px;
+}
+.inline{
+    display:inline;
+}
+.satelite {
+    width:408px;
+    height:306px;
+    border-radius: 24px;}
+
+    .aljajeera{
+        margin-bottom: 12px;
+    }
+    .bold{
+        color:#0E0E0E;
+        font-size: 32px;
+        font-weight: bold;
+        opacity: 80%;
+        margin-bottom: 12px;
+    }
+
+    .read{
+          width:122px;
+          height:41px;
+          border-radius: 8px;
+          border:none;
+          font-size: 18px;
+          font-weight: 600;
+          color:white;
+          background-color:#006A50;
+          font-size: 18px;
+          font-weight: 600;
+          color:white;
+    }  
