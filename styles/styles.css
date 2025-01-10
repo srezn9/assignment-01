@@ -45,3 +45,73 @@
         font-weight: 600;
         color:white;
     }
+    .same2{
+        color:#0E0E0E;
+        font-size:40px;
+        font-weight: bold;
+    }
+
+    /* vision section */
+    .visions{
+        width:1280px;
+        height:765px;
+        margin:120px auto;
+
+    }
+    .vision-container{
+        display:flex;
+        gap:24px;
+    }
+    .vision{
+        padding:32px;
+    }
+    #vision1{
+        background-color:#abc5f1;
+    }
+    #vision2{
+        background-color:#C6E4D6;
+    }
+    #vision3{
+        background-color:#F7EBCF;
+    }
+    .subtitle{
+        color:#0E0E0E;
+        font-size:20px;
+        font-weight:bold;
+        opacity:80%;
+    }
+    .same{color:#0E0E0E;
+          opacity:70%;
+          font-size:16px;
+          font-weight:400; }
+
+        #btn1{
+            background-color: #5490F5;
+          width:122px;
+          height:41px;
+          border-radius: 8px;
+          border:none;
+          font-size: 18px;
+        font-weight: 600;
+        color:white;}
+
+          #btn2{
+            background-color: #09A15C;
+          width:122px;
+          height:41px;
+          border-radius: 8px;
+          border:none;
+          font-size: 18px;
+          font-weight: 600;
+          color:white;
+          }
+          #btn3{
+            background-color: #FFC239;
+          width:122px;
+          height:41px;
+          border-radius: 8px;
+          border:none;
+          font-size: 18px;
+          font-weight: 600;
+          color:white;
+          }
