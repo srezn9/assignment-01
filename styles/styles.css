@@ -50,7 +50,7 @@ body{
     }
     .same2{
         color:#0E0E0E;
-        font-size:40px;
+        font-size:44px;
         font-weight: bold;
     }
 
@@ -97,6 +97,7 @@ body{
           font-size: 18px;
         font-weight: 600;
         color:white;}
+        
 
           #btn2{
             background-color: #09A15C;
@@ -260,19 +261,30 @@ cursor: pointer;}
     border:none;
     font-size: 16px;
     font-weight: 400;
+    
 }
 .newsletter-details{
     width:622px;
     height:48;
     margin-left:323px
 }
+form{
+    
+    position:relative;
+
+}
 form button{
-    border-radius: 8px;
     background-color:#006A50;
-border:none;
-font-size:18px;
-font-weight:semibold;
-color: #FFFFFF;
-width:151px;
-height:56px;
+    border:none;
+    font-size:18px;
+    font-weight:semibold;
+    color: #FFFFFF;
+    width:151px;
+    height:57px;
+    position: absolute;
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: #15493c;
 }
