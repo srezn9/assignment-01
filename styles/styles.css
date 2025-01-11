@@ -40,7 +40,7 @@ body{
         margin-left: 64px;
         margin-right:60px;
     }
-    /* shared styles */
+   
 
     .btn-primary{
         background-color:#006A50;
@@ -172,10 +172,10 @@ body{
 
     /* donation box styles */
 
-    .donations{
+    .donation-box{
         width:1280px;
-        height:448px;
-        margin:140px auto;
+        height:464px;
+        margin:70px auto;
         background-color:#ececec
     }
     .donation{
@@ -187,7 +187,8 @@ body{
     .donate-btn{
         display:flex;
         justify-content:space-evenly;
-        gap:0px;
+        width:1071px;
+        margin-left:104px;
         
     }
     .donate-btn button{
@@ -212,7 +213,8 @@ body{
         background-color: #FFFFFF;
         box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.10);
         border:none;
-    margin-top:32px;}
+        margin-top:32px;
+    }
 
 
     .btn-other {margin-left:564px;
@@ -224,7 +226,53 @@ font-weight:semibold;
 color: #FFFFFF;
 width:151px;
 height:56px;
-margin-top:32px;
+margin-top:25px;
 cursor: pointer;}
 
 .hover:hover{background-color: #b1c5c0;}
+
+.done-p{
+    width:1000px;
+    height:48px;
+    margin-left:110px;
+}
+
+/* newsletter styles */
+
+.newsletter{
+    background-color: #C6E4D6;
+    background-size:cover;
+    width:1280px;
+    height:360px;
+    margin:70px auto;
+    border:none;
+    border-radius: 24px;
+    padding: 70px 8px;
+
+}
+.newsletter-box{
+   text-align: center;
+  
+}
+#email{
+    width:650px;
+    height:55px;
+    border:none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.newsletter-details{
+    width:622px;
+    height:48;
+    margin-left:323px
+}
+form button{
+    border-radius: 8px;
+    background-color:#006A50;
+border:none;
+font-size:18px;
+font-weight:semibold;
+color: #FFFFFF;
+width:151px;
+height:56px;
+}
